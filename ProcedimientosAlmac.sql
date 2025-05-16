@@ -12,5 +12,5 @@ CREATE PROCEDURE `producto`(
 )
 BEGIN
 	INSERT INTO producto (nombre, precio, codigo_fabricante)
-    VALUES (p_nombre, p_precio, p_codigo_fabricante);
+ VALUES (p_nombre, p_precio, p_codigo_fabricante);
 END
