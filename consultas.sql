@@ -441,4 +441,3 @@ group by f.nombre
 HAVING COUNT(p.codigo_fabricante) = 
 (select COUNT(*) from producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo
 where f.nombre = 'Lenovo')*/               
-/*'finaljson'*/
